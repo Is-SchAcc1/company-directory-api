@@ -1,8 +1,8 @@
 <script setup>
-import {red, onMounted, onUnmounted, getCurrentInstance} from 'vue'
+import {ref, onMounted, onUnmounted, getCurrentInstance} from 'vue'
 import { useRoute } from 'vue-router';
 import useAPI from '@/composables/useApi';
-import { faker } from '@faker-js/faker/.';
+import { faker } from '@faker-js/faker';
 
 const { fetchEmployee, currentEmployee } = useAPI()
 
